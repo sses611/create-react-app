@@ -209,21 +209,22 @@
       <details>
       <summary>컴포넌트 추상화 예시</summary>  
       <div markdown="1">
-
-      ```JavaScript
-        <div style={팝업스타일}>
+      
+       ```JavaScript
+         <div style={팝업스타일}>
           <button onClick={asyc () => {
             const res = await 회원가입();
-            if(res.success){
-              프로필로이동();
-            }
-            }}>전송</button>
-          
-        <Popup onSubmit={회원가입} onSuccess={프로필로이동} />
-     ```
+             if(res.success){
+                프로필로이동();
+           }
+         }}>전송</button>
+
+         <Popup onSubmit={회원가입} onSuccess={프로필로이동} />
+      ```
       </div>
-      </details>
-        
+      </details> 
+ 
+ 
       <details>
       <summary>함수 추상화 예시</summary>  
       <div markdown="1">
