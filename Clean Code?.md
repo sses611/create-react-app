@@ -1,5 +1,7 @@
 ## Frontend Clean Code
 참고 : https://youtu.be/edWbHp_k_9Y
+참고 : https://ko.javascript.info/async-await
+참고 : https://www.w3schools.com/HOWTO/howto_js_trigger_button_enter.asp
 
 ## 목차
 ### 실무에서 클린코드의 의의
