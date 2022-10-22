@@ -7,7 +7,9 @@
  * HTML 태그를 변수로 활당, 호출, 리턴할 수 있는 문법
  
 ## 바벨?
+ * JSX로 적은 코드를 브라우저가 이해할 수 있는 형태로 바꾸어 주는 것
  * 6 to 5라는 의미로 ES6코드를 ES5로 바꾸는 과정을 뜻한다.
+
 
 ## ES, ECMASCRIPT
 참고 블로그 : https://hbsowo58.tistory.com/m/407
@@ -22,9 +24,16 @@
     *   Multi-line String
     *   클래스
 
- 
+## 예시
+  const Title = <h3 id="title" onMouseEnter={ () => console.log("mouse enter")}>Hello </h3>
+
+
 ## JSX 문법 규칙
- 1. 무조건 닫는 태그가 필요하다.
+<div>
+  <Title />
+  <Button /> 
+</div>
+ <!-- 1. 무조건 닫는 태그가 필요하다.
  ```
  <input/>
  ```
@@ -53,4 +62,4 @@ return(
 ```
  5. 속성 값 중 -으로 구분 되는 값들은 다 카멜체로 사용해야한다.
  6. class 적용대신 className으로 사용해야한다.
- 7. 주석사용해야한다.
+ 7. 주석사용해야한다. -->
